@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+*{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0em;
+}
+body{
+    color:blue;
+}
+footer:hover{
+    color:rgb(16, 156, 40);
+}
+@media (min-width:720px){
+#logo{
+    background-color:black;
+    
+    padding: 1em;
+    left: 0%;
+}
+#img-logo{
+    padding-left: 5.5em;
+}
+}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap');
+#seccion3-letras
+{
+   
+
+}
+#seccion3-letras1
+{
+    color:#000000;
+    font-size: 250%;
+    text-align: center;
+
+}
+#seccion3-letras2
+{
+    color:#000000;
+    font-size: 100%;
+    text-align: center;
+
+}
+#text-botomRW
+{
+    text-decoration: none;
+    background-color: #00000000;
+    color:#616467;
+    border-radius: 10em;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding: 1.2em;
+    text-align: center;
+    position:relative;
+    top:2em;
+    bottom:auto;
+    right: auto;
+    left: 42%;
+    -webkit-box-shadow: 0 0 0 2px #616467 inset;
+    box-shadow: 0 0 0 2px #616467 inset;
+   
+
+}
+#text-botomRW:hover{
+    background-color: #616467;
+    color:white;
+}
+#music{
+    height:50em ;
+}
+#text-botomJang
+{
+    position:relative;
+    top:3em;
+    padding-left: 5em;
+   
+
+}
+#text-botomJang:hover
+{
+    opacity: 0.3;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+   
+
+}
+#text-botomJang1
+{
+    position:relative;
+    top:5em;
+    padding-left: 5em;
+   
+
+}
+#text-botomJang1:hover{
+ 
+    opacity: 0.3;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+}
+@media (max-width:321px){
+    #music{
+        height:20em ;
+    }
+    #text-botomRW
+{
+    text-decoration: none;
+    background-color: #00000000;
+    color:#616467;
+    border-radius: 10em;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding: 0.2em;
+    text-align: center;
+    position:relative;
+    top:em;
+    bottom:auto;
+    right: auto;
+    left: 20%;
+    -webkit-box-shadow: 0 0 0 2px #616467 inset;
+    box-shadow: 0 0 0 2px #616467 inset;
+    
+
+}
+#logo{
+    background-color:black;
+    
+    padding: 1em;
+    left: 0%;
+}
+#img-logo{
+    padding-left: 4.5em;
+}
+#text-botomJang
+{
+    position:relative;
+    top:3em;
+    padding-left: 1em;
+   
+
+}
+#text-botomJang1
+{
+    position:relative;
+    top:3em;
+    padding-left: 1em;
+   
+
+}
+#seccion3-letras1
+{
+    color:#000000;
+    font-size: 200%;
+    text-align: center;
+
+}
+#seccion3-letras2
+{
+    color:#000000;
+    font-size: 100%;
+    text-align: center;
+
+}
+}
+@media (min-width:322px) and (max-width:480px){
+    #music{
+        height:20em ;
+    }
+     body{
+         
+     }
+     #text-botomRW
+     {
+         text-decoration: none;
+         background-color: #00000000;
+         color:#616467;
+         border-radius: 10em;
+         padding-left: 7em;
+         padding-right: 7em;
+         padding: 0.2em;
+         text-align: center;
+         position:relative;
+         top:em;
+         bottom:auto;
+         right: auto;
+         left: 20%;
+         -webkit-box-shadow: 0 0 0 2px #616467 inset;
+         box-shadow: 0 0 0 2px #616467 inset;
+         
+     
+     }
+     #text-botomJang
+     {
+         position:relative;
+         top:3em;
+         padding-left: 1em;
+        
+     
+     }
+     #text-botomJang1
+     {
+         position:relative;
+         top:3em;
+         padding-left: 1em;
+        
+     
+     }
+     #seccion3-letras1
+     {
+         color:#000000;
+         font-size: 200%;
+         text-align: center;
+     
+     }
+     #seccion3-letras2
+     {
+         color:#000000;
+         font-size: 100%;
+         text-align: center;
+     
+     }
+} 
+

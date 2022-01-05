@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body id="body">
+  <header id="header">
+    <div class="shadow p-3 mb-5 bg-body rounded"><h1>PROYECTOS Y PRACTICAS DE PROGRAMACIÓN Y DESARROLLO WEB</h1></div>
+    <div class="circuloC a" id="whitemode"></div>
+    <div class="circuloO a" id="blackmode" onclick="onMode();"></div>
+  </header>
+   <aside class="aside shadow p-3 mb-5 bg-body rounded" id="menuaside">
+    <div class="dropdown" id="menu">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Todos los proyectos
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" onclick="genshinOpen();">genshin impact</a></li>
+        <li><a class="dropdown-item" onclick="spotifyOpen();">Spotify</a></li>
+        <li><a class="dropdown-item" onclick="antiSocialOpen();">AntiSocial</a></li>
+        <li><a class="dropdown-item" onclick="tencentOpen();">Tencent page</a></li>
+        <li><a class="dropdown-item" onclick="osuOpen();">Osu! menu</a></li>
+      </ul>
+    </div>
+  </aside>
+  <section>
+  <!--------------------------Gensing impact section----------------------------------------------------------------------------------->
+    <div class="genshin" id="genshin">
+      <button type="button" class="btn-close" aria-label="Close"onclick="genshinClose();"></button>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/genshin-img/genshin-img.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/genshin-img/genshin-img2.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="text shadow p-3 mb-5 bg-body rounded">
+        <h2 class="h2">Replica de pagina de genshin impact</h2>
+        <p>Esta pagina esta hecha con html y css una de mis primeras practicas la estructura no es muy buena pero esta muy bien 
+           no es la gran cosa pero me siento orgulloso de esta pagina
+           
+        </p>
+        <a class="btn btn-outline-dark" href="genshin/index.html" target="_blank">Entra a la pagina</a>
+      </div>
+    </div>
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+<!-------------------------------------Spotify Seccion------------------------------------------------------------------------------------------------>
+<div class="Spotify" id="Spotify">
+  <button type="button" class="btn-close" aria-label="Close"onclick="spotifyClose();"></button>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/spotify-img/spotify-img3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/spotify-img/spotify-img2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/spotify-img/spotify-img.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="text shadow p-3 mb-5 bg-body rounded">
+    <h2 class="h2">Replica de pagina de Spotify</h2>
+    <p>Lo hice cuado estaba aburrido fue mi sengunda replica despues de la de genshin no se como lo hice pero 
+       me quedo bien para en esa epoca no  tener muchos conocimientos
+       
+    </p>
+    <a class="btn btn-outline-dark" href="Spotify/index.html" target="_blank">Entra a la pagina</a>
+  </div>
+</div>
+<!------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------Antisocial-Part---------------------------------------->
+<div class="antiSocial" id="antiSocial">
+  <button type="button" class="btn-close" aria-label="Close"onclick="antiSocialClose();"></button>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/antiSocial-img/antiSocial.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/antiSocial-img/antiSocial2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/antiSocial-img/antiSocial3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="text shadow p-3 mb-5 bg-body rounded">
+    <h2 class="h2">AntiSocial</h2>
+    <p>
+       Este es mi primer proyecto original si podriamos decirlo
+       asi me costo como dos dias hacer esta hueva
+       pero me ayudo mucho a aprender de diseño aunque no se note xd
+    </p>
+    <a class="btn btn-outline-dark" href="https://gatos69.000webhostapp.com/" target="_blank">Entra a la pagina</a>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------Tencent Section--------------------------------------------------------------------------------------------------->
+<div class="Tencent" id="Tencent">
+  <button type="button" class="btn-close" aria-label="Close"onclick="tencentClose();"></button>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/tencent/tencent-img.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/tencent/tencent-img2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/tencent/tencent-img3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="text shadow p-3 mb-5 bg-body rounded">
+    <h2 class="h2">Replica de Tencent web</h2>
+    <p>
+       Es es igualente una replica de la pagina oficial de tencent 
+       aquí aprendí a hacer menus "nav" aprendí a usar flexbox 
+       no la e terminado y no creo que pueda pero allí esta por si quieren visitarla
+    </p>
+    <a class="btn btn-outline-dark" href="TencentGames/index.html" target="_blank">Entra a la pagina</a>
+  </div>
+</div>
+<!-------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------Osu! section-->
+<div class="Osu" id="Osu">
+  <button type="button" class="btn-close" aria-label="Close"onclick="osuClose();"></button>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/osu-img/osu-img.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/osu-img/osu-img2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/osu-img/osu-img3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="text shadow p-3 mb-5 bg-body rounded" id="body1">
+    <h2 class="h2">Osu! menu</h2>
+    <p>
+       Aquí fue la primera ves que empece a utilizar js para los diseños
+       tenia modo oscuro pero ya no F, aqui aprendpi a usar los estilos en js y hacer un poca interactiva la pagina 
+    </p>
+    <a class="btn btn-outline-dark" href="osu! paginaJuego/index.html" target="_blank">Entra a la pagina</a>
+  </div>
+</div>
+   </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="Program.js"></script>
+</body>
+</html>

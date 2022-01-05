@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body, html{
+    height: 100%;
+    font-size: 14px;
+    overflow-x: hidden;
+    color: #333;
+    font-family: Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+    background-color: #111;
+}
+.home-container .home-content .bg-video {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+header{
+    background-color: black;
+}
+.bg-video
+{
+    
+    position: absolute;
+}
+video{
+    border: none;
+    outline: none;
+}
+.home-login{
+    position: absolute;
+}
+.home-title{
+    width: 100%;
+}
+.home-title img{
+    position: absolute;
+    width: 52vw;
+    top: 11vw;
+    left: 4vw;
+
+}
+div form input{
+    margin: 1vw;
+    position: relative;
+    left: 1vw;
+    display: block;
+    width: 25vw;
+    height: 2.5vw;
+    border: 1px solid #eeeeee;
+}
+button{
+    width: 25vw;
+    position: relative;
+    left: 2vw;
+    height: 2.5vw;
+    background-color: #4ea4dc;
+    border: 1px solid #4ea4dc;
+    border-radius:0.3vw;
+    color: rgb(255, 255, 255);
+    justify-content:center
+}
+.home-login{
+    background-color: rgba(252, 252, 252, 0.699);
+    width: 28.5vw;
+    height: 48vw;
+    right: 15vw;
+}
+#text-login{
+    color: rgb(0, 142, 250);
+    font-size: 2.2vw;
+    text-align: center;
+    text-decoration:underline
+}
+form{
+    position: relative;
+}
+.home-login form{
+    top:10vw;
+}
+
+footer{
+    position: absolute;
+    top: 48vw;
+    background-color: #111;
+    width: 100%;
+  
+}
+header form select option{
+    text-decoration: none;
+    background-color: rgb(26, 26, 26);
+}
+img-company .img1{
+    position: absolute;
+    top: -1vw;
+    padding: 20%;
+}

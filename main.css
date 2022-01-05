@@ -1,0 +1,90 @@
+aside{
+    position: relative;
+    top: -40px;
+    width: 200px;
+    height: 50vw;
+    background-color: slategray;
+}
+
+body{
+    overflow: hidden;
+    background-color: #f9faf7;
+}
+.dropdown{
+    left: -7px;
+    
+}
+.dropdown button{
+    background-color: rgb(128, 0, 90);
+}
+.dropdown button:hover{
+    background-color: rgb(107, 15, 80);
+}
+.dropdown a:hover{
+    background-color: rgba(107, 15, 79);
+    color: white;
+}
+.carousel{
+    left: 240px;
+    top: 100px;
+    position: absolute;
+    width: 800px;
+   
+}
+.text{
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+    width: 290px;
+    height: 450px;
+}
+.genshin{
+  
+    transition: 1s;
+    display: none;
+}
+.btn-close{
+    position: absolute;
+    top: 120px;
+    left: 1300px;
+    z-index: 99;
+}
+.h2{
+    margin: 10px;
+}
+.Spotify{
+    display: none;
+}
+.antiSocial{
+    display: none;
+}
+.Tencent{
+    display: none;  
+}
+.Osu{
+    display: none;
+}
+.dropdown{
+    display: inline-block;
+}
+.circuloC{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    z-index: 99999;
+}
+.a{
+    top: 25px;
+    left: 1300px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 99999;
+}
+.circuloO{
+    background-color: black;
+}
+.circuloC{
+    background-color: white;
+}

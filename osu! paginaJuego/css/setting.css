@@ -1,0 +1,17 @@
+.setting{
+    height: 50vw;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.459);
+    position: absolute;
+    z-index: 5;
+    left: -50vw;
+    transition: 0.5s;
+}
+.setting ul {
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 4vw;
+}
+.setting ul li{
+    cursor: pointer;
+}

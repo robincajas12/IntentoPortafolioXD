@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+*{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0em;
+}
+body{
+    color:blue;
+}
+#logo{
+    background-color:black;
+    
+    padding: 1em;
+    left: 0%;
+}
+#img-logo{
+    padding-left: 5.5em;
+}
+#seccionprueba{
+    background-color:#483f3f;
+    padding: 18em;
+}
+#Text-Premium{
+    margin: 0%;
+    padding:0%;
+    border:0%;
+    position: absolute;
+    top:20%;
+    right: 40%;
+
+}
+#text-botomPG{
+
+    text-align: center;
+    position:relative;
+    top:5em;
+    bottom:auto;
+    right: auto;
+    left: 15%;
+    
+
+}
+#botoninicio{    text-decoration: none;
+    background-color: #00000000;
+    color:#616467;
+    border-radius: 10em;
+    padding: 1.2em;
+    text-align: center;
+    position:absolute;
+    top:0.5em;
+    bottom:auto;
+    right: auto;
+    left: 42%;
+    -webkit-box-shadow: 0 0 0 2px #616467 inset;
+    box-shadow: 0 0 0 2px #616467 inset;
+}
+#botoninicio:hover{
+    background-color: #616467;
+    color:white;
+}
+@media (max-width:321px){
+    #botoninicio{    text-decoration: none;
+        background-color: #00000000;
+        color:#616467;
+        border-radius: 10em;
+        padding: 1.2em;
+        text-align: center;
+        position:absolute;
+        top:4em;
+        bottom:auto;
+        right: auto;
+        left: 35%;
+        -webkit-box-shadow: 0 0 0 2px #616467 inset;
+        box-shadow: 0 0 0 2px #616467 inset;
+    }
+    #Text-Premium{
+        margin: 0%;
+        padding:0%;
+        border:0%;
+        position: absolute;
+        top:23%;
+        right: 37%;
+    
+    }
+    #text-botomPG{
+
+        text-align: center;
+        position:absolute;
+        top:15em;
+        bottom:auto;
+        right: auto;
+        left: 2%;
+        
+    
+    }
+
+}
+@media (min-width:322px) and (max-width:480px){
+    #botoninicio{    text-decoration: none;
+        background-color: #00000000;
+        color:#616467;
+        border-radius: 10em;
+        padding: 1.2em;
+        text-align: center;
+        position:absolute;
+        top:4em;
+        bottom:auto;
+        right: auto;
+        left: 35%;
+        -webkit-box-shadow: 0 0 0 2px #616467 inset;
+        box-shadow: 0 0 0 2px #616467 inset;
+    }
+    #Text-Premium{
+        margin: 0%;
+        padding:0%;
+        border:0%;
+        position: absolute;
+        top:25%;
+        right: 40%;
+    
+    }
+    #text-botomPG{
+
+        text-align: center;
+        position:absolute;
+        top:15em;
+        bottom:auto;
+        right: auto;
+        left: 10%;
+        
+    
+    }
+
+}
+
+
